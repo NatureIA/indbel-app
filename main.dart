@@ -43,7 +43,7 @@ class _LoginScreenState extends State<LoginScreen> {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Image.asset('assets/logo.png', height: 100),
+                Image.asset('logo.png', height: 100),
                 SizedBox(height: 24),
                 TextField(
                   controller: codeController,
